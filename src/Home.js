@@ -3,9 +3,6 @@ import Card from './Card'
 import './Card.css';
 
 function Home() {
-  function goTo(location){
-    window.location = `/${location}`;
-  }
   return (
     <div className="projects">
       <h1>My projects over the years...</h1>
